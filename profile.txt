@@ -1,0 +1,108 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 17.46      0.11     0.11                             Math_RectCheckCollisionRay
+ 12.70      0.19     0.08                             inflate_fast
+  9.52      0.25     0.06  5541125     0.01     0.01  Math_CheckFrustumCollision
+  7.94      0.30     0.05   452971     0.11     0.11  Shaders_SetModelMatrix
+  6.35      0.34     0.04  2978963     0.01     0.04  FindViewCollisions
+  6.35      0.38     0.04   455527     0.09     0.09  Math_InverseMatrix
+  4.76      0.41     0.03  4086333     0.01     0.01  BoundingBox_GetWorldSpaceCube
+  4.76      0.44     0.03                             crc32
+  3.17      0.46     0.02  4086333     0.00     0.00  BoundingBox_GetPosition
+  3.17      0.48     0.02    85671     0.23     0.45  OctreeLeaf_ResolveCollisions
+  3.17      0.50     0.02     4681     4.27    32.31  OctreeLeaf_Init
+  3.17      0.52     0.02                             BoundingBox_AddChild
+  3.17      0.54     0.02                             MeshInstance_Create
+  3.17      0.56     0.02                             adler32
+  1.59      0.57     0.01   452972     0.02     0.02  Math_Mat4ToMat3
+  1.59      0.58     0.01   450416     0.02     0.13  Mesh_DrawElements
+  1.59      0.59     0.01     2555     3.91    46.55  World_Render
+  1.59      0.60     0.01     1503     6.65     7.17  Update
+  1.59      0.61     0.01       67   149.26   149.26  OctreeLeaf_Remove
+  1.59      0.62     0.01                             DrawMeshInstance
+  1.59      0.63     0.01                             Math_CopyMatrix
+  0.00      0.63     0.00   458086     0.00     0.00  Shaders_SetUniformColor
+  0.00      0.63     0.00   455526     0.00     0.00  Shaders_GetProjectionMatrix
+  0.00      0.63     0.00   455526     0.00     0.11  Shaders_UpdateModelMatrix
+  0.00      0.63     0.00   452972     0.00     0.09  Math_InverseMatrixMat3
+  0.00      0.63     0.00   452971     0.00     0.00  Math_TransposeMatrix
+  0.00      0.63     0.00   452971     0.00     0.00  Shaders_UpdateViewMatrix
+  0.00      0.63     0.00   450416     0.00     0.00  Mesh_Draw
+  0.00      0.63     0.00    38035     0.00     0.00  PushVec3Arr
+  0.00      0.63     0.00     9318     0.00     0.00  HashTable_Get
+  0.00      0.63     0.00     8568     0.00     0.00  Math_MatrixMatrixMult
+  0.00      0.63     0.00     6564     0.00     0.00  Math_RotateMatrix
+  0.00      0.63     0.00     6412     0.00     0.00  HashTable_Add
+  0.00      0.63     0.00     6062     0.00     0.00  Math_TranslateMatrix
+  0.00      0.63     0.00     5061     0.00     0.06  Skybox_Draw
+  0.00      0.63     0.00     4681     0.00     0.00  OctreeLeaf_Free
+  0.00      0.63     0.00     4058     0.00     0.00  Math_MatrixMult
+  0.00      0.63     0.00     4058     0.00     0.00  Math_RotateAroundAxis
+  0.00      0.63     0.00     3643     0.00     0.00  Object_Free
+  0.00      0.63     0.00     2555     0.00    46.69  Draw
+  0.00      0.63     0.00     2555     0.00     0.00  Math_LookAt
+  0.00      0.63     0.00     2555     0.00     0.00  OctreeLeaf_GetVisibleObjects
+  0.00      0.63     0.00     2555     0.00     0.00  Shaders_GetViewMatrix
+  0.00      0.63     0.00     2555     0.00     0.00  Shaders_SetViewMatrix
+  0.00      0.63     0.00     2506     0.00     0.00  BoundingBox_Create
+  0.00      0.63     0.00     2506     0.00     0.00  BoundingBox_FreeData
+  0.00      0.63     0.00     2506     0.00     0.00  Math_ScalingMatrixXYZ
+  0.00      0.63     0.00     2506     0.00     0.00  Object_Rotate
+  0.00      0.63     0.00     2506     0.00     0.00  Object_Set
+  0.00      0.63     0.00     2506     0.00     0.00  Object_UpdateMatrix
+  0.00      0.63     0.00     2506     0.00     0.00  RemoveUser
+  0.00      0.63     0.00     1503     0.00     0.05  BoundingBox_ResolveCollision
+  0.00      0.63     0.00     1503     0.00     0.46  World_DrawLines
+  0.00      0.63     0.00     1137     0.00     0.00  Object_Copy
+  0.00      0.63     0.00     1009     0.00     0.00  BoundingBox_Copy
+  0.00      0.63     0.00     1003     0.00   150.88  OctreeLeaf_Insert
+  0.00      0.63     0.00     1003     0.00     0.01  World_UpdateObjectInOctree
+  0.00      0.63     0.00      820     0.00     0.00  Window_GetViewportHeight
+  0.00      0.63     0.00      820     0.00     0.00  Window_GetViewportWidth
+  0.00      0.63     0.00      418     0.00     0.00  Event
+  0.00      0.63     0.00      410     0.00     0.00  Window_MaxDeltaTime
+  0.00      0.63     0.00       19     0.00     0.00  Shaders_Close
+  0.00      0.63     0.00       10     0.00     0.00  CreateShader
+  0.00      0.63     0.00        6     0.00     0.00  ImageLoader_CreateImage
+  0.00      0.63     0.00        6     0.00     0.00  ImageLoader_SetImageParameters
+  0.00      0.63     0.00        5     0.00     0.00  ImageLoader_DeleteImage
+  0.00      0.63     0.00        4     0.00     0.00  HashTable_Create
+  0.00      0.63     0.00        4     0.00     0.00  HashTable_Free
+  0.00      0.63     0.00        1     0.00     0.00  ImageLoader_BindImage
+  0.00      0.63     0.00        1     0.00     0.00  Window_Open
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
